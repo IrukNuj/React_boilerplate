@@ -6,9 +6,7 @@ class App extends Component {
   render() {
     const logoOptions = {
       alt: 'logo',
-
       className: 'App-logo',
-
       src: logo,
     };
     const title = 'こんにちはReact';
@@ -20,6 +18,7 @@ class App extends Component {
           {
             // コメントはこう書く
           }
+
           <img alt={logoOptions.alt} {...logoOptions} />
           {title && <p>{title}</p>}
           {targets.map(target => (
