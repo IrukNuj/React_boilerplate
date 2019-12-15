@@ -12,6 +12,8 @@ class App extends Component {
     const title = 'こんにちはReact';
     const targets = ['World', 'Kanae', 'Yukina'];
 
+    const hogehoge = ['hogehoge', 'hofehogege'];
+
     return (
       <div className="App">
         <header className="App-header">

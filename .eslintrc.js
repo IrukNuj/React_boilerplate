@@ -77,6 +77,7 @@ module.exports = {
         extensions: ['jsx', 'tsx']
       }
     ],
+    'react/jsx-props-no-spreading': 'off',
     'react/jsx-one-expression-per-line': 'off',
     'react/jsx-uses-react': 'error',
     'react/jsx-uses-vars': 'error',
