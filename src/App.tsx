@@ -1,31 +1,16 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
   render() {
-    const logoOptions = {
-      alt: 'logo',
-      className: 'App-logo',
-      src: logo,
-    };
-    const title = 'こんにちはReact';
-    const targets = ['World', 'Kanae', 'Yukina'];
-
-    const hogehoge = ['hogehoge', 'hofehogege'];
-
     return (
       <div className="App">
         <header className="App-header">
-          {
-            // コメントはこう書く
-          }
-
-          <img alt={logoOptions.alt} {...logoOptions} />
-          {title && <p>{title}</p>}
-          {targets.map(target => (
-            <p>Hello, {target}!</p>
-          ))}
+          <div className="hogehoge">
+            <p>Hello!</p>
+            <p>This is React boilerplate.</p>
+            <p>If you want to see this css, please open ./App.css .</p>
+          </div>
         </header>
       </div>
     );
