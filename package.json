@@ -7,6 +7,7 @@
     "@types/node": "12.12.21",
     "@types/react": "16.9.17",
     "@types/react-dom": "16.9.4",
+    "firebase": "^7.6.1",
     "husky": "^3.1.0",
     "lint-staged": "^9.5.0",
     "react": "^16.12.0",
@@ -61,8 +62,8 @@
     ]
   },
   "prettier": {
-    "bracketSpacing": false,
     "singleQuote": true,
+    "tabWidth": 2,
     "trailingComma": "es5"
   },
   "husky": {
