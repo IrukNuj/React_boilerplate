@@ -1,0 +1,14 @@
+name: eslintCI
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Copy repository
+        uses: actions/checkout@v1
+      - name: Setup Node.js
+        uses: actions/setup-node@v1
+      - name: npm install
+        run: yarn
+      - name: yarn eslint
+        run: yarn lint
