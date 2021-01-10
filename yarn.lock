@@ -10728,9 +10728,9 @@ regjsgen@^0.5.0:
   integrity sha512-5qxzGZjDs9w4tzT3TPhCJqWdCc3RLYwy9J2NB0nm5Lz+S273lvWcpjaTGHsT1dc6Hhfq41uSEOw8wBmxrKOuyg==
 
 regjsparser@^0.6.0:
-  version "0.6.1"
-  resolved "https://registry.yarnpkg.com/regjsparser/-/regjsparser-0.6.1.tgz#5b6b28c418f312ef42898dc6865ae2d4b9f0f7a2"
-  integrity sha512-7LutE94sz/NKSYegK+/4E77+8DipxF+Qn2Tmu362AcmsF2NYq/wx3+ObvU90TKEhjf7hQoFXo23ajjrXP7eUgg==
+  version "0.6.5"
+  resolved "https://registry.yarnpkg.com/regjsparser/-/regjsparser-0.6.5.tgz#325c5cf2d4a6afd0b5d509866518d1b8f7678b13"
+  integrity sha512-AvWj/ihGRmxs7vRG2/PLRMJrc9vrmPLWr2i5IMixQHvKo6VgAGK0ZcIm/La876FNyAo5tF8s9V03cp+ZbFidqA==
   dependencies:
     jsesc "~0.5.0"
 
